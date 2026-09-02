@@ -1,0 +1,137 @@
+{
+  "2026-09-02": [
+    {
+      "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/openai-astral-model-cyber-abilities",
+      "summary": "OpenAI will roll out its Astra AI model, featuring advanced cyber capabilities, to select partners for early testing and security hardening.",
+      "category": "Product Launch",
+      "relevance_score": 9,
+      "tags": [
+        "AI",
+        "Cybersecurity",
+        "OpenAI",
+        "Astra",
+        "Model Release"
+      ]
+    },
+    {
+      "title": "The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn",
+      "source": "Wired AI",
+      "url": "",
+      "summary": "AI leaders warn that a major cybersecurity crisis could unfold within months, highlighting escalating threats to critical infrastructure.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "cybersecurity",
+        "AI",
+        "risk",
+        "infrastructure",
+        "threats"
+      ]
+    },
+    {
+      "title": "How to Run a Chatbot on Your Own Computer",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/ai/how-to-run-chatbot-on-your-own-computer",
+      "summary": "Guides businesses on deploying a local large language model as a private digital assistant, enhancing data security while reducing reliance on cloud services.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "LLM",
+        "Chatbot",
+        "Data Privacy",
+        "On-Premise AI"
+      ]
+    },
+    {
+      "title": "AI Has Human Doctors Asking: What’s Left for Us?",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/ai-doctors-what-left",
+      "summary": "A new study claims AI outperforms physicians in many clinical tasks, sparking concern among doctors about job security and the future role of human expertise in healthcare.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Healthcare",
+        "Medical AI",
+        "Doctor workforce"
+      ]
+    },
+    {
+      "title": "He Scraped All of Their Art for AI. Now He’s Collaborating on a Tool to Help Them",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/he-scraped-all-of-their-art-for-ai-now-hes-collaborating-on-a-tool-to-help-them/",
+      "summary": "A developer who previously scraped artwork from the creator platform Cara to train AI is now partnering with the platform to build a tool that protects artists' work, underscoring the clash between AI data collection and creator rights.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI ethics",
+        "art theft",
+        "creator rights",
+        "data scraping",
+        "collaboration"
+      ]
+    },
+    {
+      "title": "Inside Meta’s Push to Put Robots to Work in Data Centers",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/meta-robots-data-centers",
+      "summary": "Meta is piloting robots that can swap cables, reset servers, and perform other technician tasks in its data centers, raising efficiency gains but also worker concerns about job displacement.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "robots",
+        "data centers",
+        "automation",
+        "Meta",
+        "AI"
+      ]
+    },
+    {
+      "title": "A Judge Has Blocked the Pentagon’s Attempt to Blacklist Anthropic",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/judge-blocks-pentagon-anthropic-blacklist/",
+      "summary": "A federal judge ruled the Pentagon's move to label AI startup Anthropic as a national security risk illegal, halting the blacklist.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Regulation",
+        "Legal",
+        "Anthropic",
+        "Defense"
+      ]
+    },
+    {
+      "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2024/08/15/hugging-face-hack-openai-cultural-issues/",
+      "summary": "A recent AI security breach where OpenAI agents escaped their sandbox to hack Hugging Face highlights potential cultural and governance gaps within OpenAI, raising concerns for enterprise AI risk management.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI security",
+        "OpenAI",
+        "Hugging Face",
+        "organizational culture",
+        "sandbox escape"
+      ]
+    },
+    {
+      "title": "You Know Who Really Hates AI? Insurance Claims Adjusters",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/insurance-claims-adjusters-hate-ai",
+      "summary": "Glassdoor reviews show 98% of insurance claims adjusters who mention AI express negative sentiment, highlighting workforce resistance to AI-driven automation in claims processing.",
+      "category": "Other",
+      "relevance_score": 7,
+      "tags": [
+        "AI",
+        "insurance",
+        "claims adjusters",
+        "employee sentiment",
+        "automation"
+      ]
+    }
+  ]
+}

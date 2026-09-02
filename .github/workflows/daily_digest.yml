@@ -1,0 +1,35 @@
+name: Daily News Digest
+
+on:
+  schedule:
+    - cron: '30 3 * * *'   # UTC 3:30 AM = IST 9:00 AM
+  workflow_dispatch:          # manual trigger bhi kar sakti ho testing ke liye
+
+jobs:
+  run-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run news curator
+        env:
+          FIREWORKS_API_KEY: ${{ secrets.FIREWORKS_API_KEY }}
+          SMTP_EMAIL: ${{ secrets.SMTP_EMAIL }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+        run: python main.py
+
+      - name: Commit new digest
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add digests/
+          git commit -m "Daily digest: $(date +'%Y-%m-%d')" || echo "Nothing to commit"
+          git push
