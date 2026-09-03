@@ -21,9 +21,9 @@ jobs:
 
       - name: Run news curator
         env:
-          FIREWORKS_API_KEY: ${{ secrets.FIREWORKS_API_KEY }}
-          SMTP_EMAIL: ${{ secrets.SMTP_EMAIL }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
         run: python content_curator.py
 
       - name: Commit new digest
