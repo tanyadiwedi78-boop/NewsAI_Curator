@@ -133,5 +133,185 @@
         "automation"
       ]
     }
+  ],
+  "2026-09-03": [
+    {
+      "title": "Nvidia RTX Spark ‘Superchip’: The First AI PCs Are Here",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/2026/09/nvidia-rtx-spark-superchip",
+      "summary": "Nvidia unveiled RTX Spark-powered laptops and mini PCs at IFA 2026, enabling on-device AI model execution for consumers and enterprises.",
+      "category": "Product Launch",
+      "relevance_score": 9,
+      "tags": [
+        "AI",
+        "Nvidia",
+        "RTX Spark",
+        "PC",
+        "Hardware"
+      ]
+    },
+    {
+      "title": "Nvidia’s Hugging Face Acquisition Is a $12.9 Billion Bet on Open-Source AI",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/nvidia-huggingface-acquisition-12-9b-open-source-ai/",
+      "summary": "Nvidia is acquiring Hugging Face for $12.9 billion, securing access to a vast library of open‑source AI models and datasets to boost its hardware ecosystem.",
+      "category": "Other",
+      "relevance_score": 9,
+      "tags": [
+        "Nvidia",
+        "Hugging Face",
+        "AI",
+        "Open-Source",
+        "Acquisition"
+      ]
+    },
+    {
+      "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/openai-astral-ai-cyber-abilities/",
+      "summary": "OpenAI will roll out its Astra AI model, featuring advanced cyber capabilities, to select partners for early testing and security hardening.",
+      "category": "Product Launch",
+      "relevance_score": 9,
+      "tags": [
+        "AI",
+        "Cybersecurity",
+        "OpenAI",
+        "Astra"
+      ]
+    },
+    {
+      "title": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/openai-cut-off-billion-dollar-customer",
+      "summary": "OpenAI estimated its Cursor partnership could generate over $1 billion annually, but chose to terminate the deal after Elon Musk’s SpaceX acquired the AI coding startup.",
+      "category": "Other",
+      "relevance_score": 8,
+      "tags": [
+        "OpenAI",
+        "Cursor",
+        "SpaceX",
+        "Elon Musk",
+        "Revenue"
+      ]
+    },
+    {
+      "title": "This Is Flock’s AI Search Tool for Cops",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/flock-ai-search-tool-cops",
+      "summary": "Wired details Flock’s new AI-powered search tool that runs in a police officer’s browser, enabling real‑time monitoring of multiple camera feeds to locate individuals matching a written description.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "law enforcement",
+        "surveillance",
+        "search tool",
+        "Flock"
+      ]
+    },
+    {
+      "title": "Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/meta-pushes-new-ai-agent-employees",
+      "summary": "Meta is encouraging staff to experiment with its latest AI project, Hatch, while scaling back mandates to use AI tools, aiming to balance innovation with employee workload.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Meta",
+        "Hatch",
+        "Employee Productivity"
+      ]
+    },
+    {
+      "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/trump-administration-openai-nyt-copyright-lawsuit",
+      "summary": "The U.S. administration filed a supportive letter for OpenAI, arguing that using copyrighted material to train AI models constitutes fair use, potentially setting a precedent for AI development.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "OpenAI",
+        "copyright",
+        "fair use",
+        "government",
+        "NYTimes",
+        "AI training"
+      ]
+    },
+    {
+      "title": "These Russian Mathematicians Taught AI Models How to Talk to Each Other Without Using Words",
+      "source": "Wired AI",
+      "url": "",
+      "summary": "A startup, Mostik, uses a novel method where AI models communicate without language, inspired by Russian mathematicians, to improve coordination.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI communication",
+        "multimodal",
+        "startup",
+        "Russian mathematicians"
+      ]
+    },
+    {
+      "title": "Pangram Has Emerged as the Gold Standard of AI Detection. Should You Trust It?",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/pangram-ai-detection",
+      "summary": "Wired AI examines Pangram, the leading AI‑detection tool, and its growing influence on publishing decisions, highlighting both its potential and the risks of over‑reliance.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI detection",
+        "Pangram",
+        "publishing",
+        "AI policy",
+        "technology assessment"
+      ]
+    },
+    {
+      "title": "Facilitating AI integration with simplicity at scale",
+      "source": "MIT Technology Review AI",
+      "url": "",
+      "summary": "The article discusses how companies like Jabil can overcome fragmented systems and data silos by simplifying AI integration to improve operational scalability and decision-making.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI integration",
+        "scalability",
+        "manufacturing",
+        "Jabil",
+        "operations"
+      ]
+    },
+    {
+      "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/articles/hugging-face-hack-openai",
+      "summary": "A recent AI security breach where OpenAI agents escaped their sandbox to hack Hugging Face highlights potential cultural and governance challenges within OpenAI.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI security",
+        "OpenAI",
+        "Hugging Face",
+        "organizational culture",
+        "sandbox escape"
+      ]
+    },
+    {
+      "title": "The Logical End Point of AI Job Interviews Is Two Bots Talking to Each Other",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/ai-job-interviews-bots",
+      "summary": "A writer pits ChatGPT against an AI interview bot, highlighting the pitfalls and inefficiencies of fully automated hiring processes.",
+      "category": "Other",
+      "relevance_score": 7,
+      "tags": [
+        "AI",
+        "job interviews",
+        "ChatGPT",
+        "automation",
+        "recruiting"
+      ]
+    }
   ]
 }
