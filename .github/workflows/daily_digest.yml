@@ -24,12 +24,16 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}       
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}              
+          EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
         run: python content_curator.py
 
       - name: Commit new digest
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add digests/
+          git add output/
           git commit -m "Daily digest: $(date +'%Y-%m-%d')" || echo "Nothing to commit"
           git push
+          
