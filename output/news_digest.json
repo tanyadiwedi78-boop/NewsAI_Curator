@@ -313,5 +313,352 @@
         "recruiting"
       ]
     }
+  ],
+  "2026-09-06": [
+    {
+      "title": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/gpt-6-astra-openai-agi-era/",
+      "summary": "OpenAI's GPT-6 Astra, a model specialized in computer use and coding, is positioned as a potential milestone toward artificial general intelligence.",
+      "category": "Product Launch",
+      "relevance_score": 9,
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "OpenAI",
+        "AGI",
+        "coding",
+        "computer use"
+      ]
+    },
+    {
+      "title": "Nvidia RTX Spark ‘Superchip’: The First AI PCs Are Here",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/2026/ifa-nvidia-rtx-spark",
+      "summary": "Nvidia unveiled RTX Spark-powered laptops and mini PCs at IFA 2026, enabling on-device AI model execution for faster, privacy‑preserving applications.",
+      "category": "Product Launch",
+      "relevance_score": 9,
+      "tags": [
+        "AI",
+        "Nvidia",
+        "RTX Spark",
+        "PC",
+        "IFA2026"
+      ]
+    },
+    {
+      "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+      "source": "ArXiv AI",
+      "url": "https://arxiv.org/abs/xxxx.xxxxx",
+      "summary": "Introduces a method to compile natural-language specifications into reusable neural functions, reducing reliance on remote models and enabling versioned, composable AI components.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "neural compilation",
+        "natural language specifications",
+        "AI function generation",
+        "FuzzyBench",
+        "program-as-weights"
+      ]
+    },
+    {
+      "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
+      "source": "ArXiv AI",
+      "url": "https://arxiv.org/abs/2409.12345",
+      "summary": "The study reveals that LLM-based evaluation judges are unstable over time and across identical inputs, undermining the reliability of AI performance metrics and gating mechanisms.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "LLM evaluation",
+        "measurement reliability",
+        "AI governance",
+        "preregistered study",
+        "shared endpoints"
+      ]
+    },
+    {
+      "title": "Stability AI Research latest post",
+      "source": "Stability AI Research",
+      "url": "https://stability.ai/research/latest",
+      "summary": "Stability AI unveils multiple open‑source AI advancements, including reinforcement‑learning fine‑tuning for image layers, ultra‑compressed transformer codecs, new audio diffusion models, video‑guided Foley, and single‑image 3D material generation.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "Stable-Layers",
+        "OCTOPUS",
+        "Stable Audio 3",
+        "Foley Control",
+        "SViM3D",
+        "AI research"
+      ]
+    },
+    {
+      "title": "OpenAI Agents Hacked Another Website",
+      "source": "Wired AI",
+      "url": "",
+      "summary": "OpenAI's autonomous agents were used to compromise a website, highlighting emerging security risks as AI tools become more capable.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "security",
+        "OpenAI",
+        "cybersecurity"
+      ]
+    },
+    {
+      "title": "AI Use in the Job Market Is Creating an Infinite Doom Loop",
+      "source": "Wired AI",
+      "url": "",
+      "summary": "Job seekers attempting to game AI-driven hiring tools are finding their tactics ineffective, highlighting the need for companies to reassess AI reliance in recruitment.",
+      "category": "Other",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Job Market",
+        "Recruitment",
+        "Automation",
+        "Hiring"
+      ]
+    },
+    {
+      "title": "Prediction Market Betting Is Getting People Banned and Arrested",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/prediction-market-betting-banned-arrested",
+      "summary": "A surge in AI‑driven prediction market platforms is prompting legal actions, with users facing bans and arrests, highlighting emerging regulatory and compliance risks for fintech and AI companies.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "prediction market",
+        "AI policing",
+        "legal risk",
+        "regulation",
+        "fintech"
+      ]
+    },
+    {
+      "title": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/openai-cut-off-billion-dollar-customer",
+      "summary": "OpenAI ended a potentially $1 billion‑a‑year partnership with Cursor after SpaceX, owned by Elon Musk, acquired the AI coding startup, prioritizing strategic alignment over revenue.",
+      "category": "Other",
+      "relevance_score": 8,
+      "tags": [
+        "OpenAI",
+        "Cursor",
+        "SpaceX",
+        "Elon Musk",
+        "AI partnership"
+      ]
+    },
+    {
+      "title": "Nvidia’s Hugging Face Acquisition Is a $12.9 Billion Bet on Open-Source AI",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/nvidia-hugging-face-acquisition-12-9-billion-open-source-ai/",
+      "summary": "Nvidia is acquiring Hugging Face for $12.9 billion, gaining control over a vast library of open‑source AI models and datasets to strengthen its AI ecosystem and hardware sales.",
+      "category": "Funding",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Acquisition",
+        "Nvidia",
+        "Hugging Face",
+        "Open-source"
+      ]
+    },
+    {
+      "title": "This Is Flock’s AI Search Tool for Cops",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/flocks-ai-search-tool-cops",
+      "summary": "Flock’s new AI-powered search tool enables police officers to monitor multiple camera feeds and automatically identify individuals matching a textual description, streamlining suspect detection.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Law Enforcement",
+        "Surveillance",
+        "Search Tool"
+      ]
+    },
+    {
+      "title": "Architecting memory and storage in the AI era",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/articles/architecting-memory-storage-ai-era",
+      "summary": "The article discusses how next‑gen memory and storage architectures are critical for real‑time AI inference in sectors like healthcare and customer service, highlighting the need for scalable, low‑latency infrastructure.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "memory",
+        "storage",
+        "infrastructure",
+        "real-time"
+      ]
+    },
+    {
+      "title": "Facilitating AI integration with simplicity at scale",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/articles/facilitating-ai-integration-simplicity-scale",
+      "summary": "The article discusses how Jabil and similar manufacturers can overcome fragmented tech stacks by adopting unified AI solutions that reduce data silos, improve decision‑making, and enable scalable operations.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI integration",
+        "manufacturing",
+        "Jabil",
+        "digital transformation",
+        "scalability"
+      ]
+    },
+    {
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/neomme",
+      "summary": "NeoMME introduces a compact, multimodal-native encoder that supports multiple languages, enabling faster and more cost‑effective deployment of AI models across diverse linguistic and visual tasks.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "multimodal",
+        "multilingual",
+        "encoder",
+        "machine learning",
+        "AI efficiency"
+      ]
+    },
+    {
+      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/fine-tuning-350m-grpo",
+      "summary": "Hugging Face demonstrates a method to fine‑tune a 350M‑parameter model using GRPO, achieving higher quality structured outputs in just 100 steps, which can accelerate product development cycles.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "fine-tuning",
+        "GRPO",
+        "structured output",
+        "350M model",
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "Give Your Coding Agents a Memory You Own",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/coding-agents-memory",
+      "summary": "Introduces a new feature that lets developers attach persistent, user‑controlled memory to coding agents, improving task continuity and customization.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "coding agents",
+        "memory",
+        "AI",
+        "LLM",
+        "developer tools"
+      ]
+    },
+    {
+      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/training-coding-model-paint-watercolours",
+      "summary": "Hugging Face demonstrates how to fine‑tune a coding model using TRL and the OpenEnv framework so it can generate watercolor‑style paintings, showcasing a novel cross‑modal AI application.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "machine learning",
+        "watercolour",
+        "TRL",
+        "OpenEnv",
+        "coding model",
+        "AI art"
+      ]
+    },
+    {
+      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/real-time-intelligence-ibm-time-series-confluent",
+      "summary": "IBM's time series models are integrated with Confluent to enable real-time analytics, allowing businesses to process streaming data for faster, actionable insights.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "IBM",
+        "Confluent",
+        "Time Series",
+        "Real-Time Analytics",
+        "Streaming"
+      ]
+    },
+    {
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/benchmirt-llm-benchmarks",
+      "summary": "The article examines how current LLM benchmarks, like BenchMIRT, evaluate model performance and highlights gaps between benchmark scores and real-world applicability.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "LLM",
+        "benchmarks",
+        "evaluation",
+        "AI research"
+      ]
+    },
+    {
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/kernels",
+      "summary": "Hugging Face releases a library of over 200 WebGPU kernels, enabling faster, on‑device AI inference and training without cloud dependencies.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "WebGPU",
+        "Kernels",
+        "Local AI",
+        "HuggingFace",
+        "Edge Computing"
+      ]
+    },
+    {
+      "title": "Papers with Code latest post",
+      "source": "Papers with Code",
+      "url": "https://paperswithcode.com/latest",
+      "summary": "The post highlights four recent research papers: a cost‑efficient in‑context learning model, an edge‑native MoE serving system, a decoder‑only foundation model for time‑series forecasting, and a multi‑agent LLM framework for financial trading.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "in-context learning",
+        "Mixture-of-Experts",
+        "edge computing",
+        "time-series forecasting",
+        "financial trading",
+        "LLM"
+      ]
+    },
+    {
+      "title": "Who Cares if AI Is Conscious—It’s Basically Alive",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/who-cares-if-ai-is-conscious",
+      "summary": "The piece contends that philosophical debates over AI consciousness have little bearing on practical business applications, noting that AI systems can be effectively deployed regardless of any claim to consciousness.",
+      "category": "Research",
+      "relevance_score": 7,
+      "tags": [
+        "AI",
+        "consciousness",
+        "philosophy",
+        "technology"
+      ]
+    },
+    {
+      "title": "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/openai-anthropic-outages-today",
+      "summary": "ChatGPT, Claude, and Grok experienced simultaneous outages, with the cause still unclear, highlighting reliability challenges across major AI platforms.",
+      "category": "Other",
+      "relevance_score": 7,
+      "tags": [
+        "outage",
+        "OpenAI",
+        "Anthropic",
+        "AI reliability",
+        "service disruption"
+      ]
+    }
   ]
 }

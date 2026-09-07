@@ -3,6 +3,8 @@ import json
 import time
 import smtplib
 import feedparser
+import requests
+from bs4 import BeautifulSoup
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from email.mime.multipart import MIMEMultipart
@@ -14,6 +16,7 @@ from datetime import date
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field, ValidationError
 from groq import Groq
+from groq import RateLimitError
 
 load_dotenv()
 
@@ -43,14 +46,25 @@ class Digest(BaseModel):
 
 
 # ============================================================
-# 2. INGEST — RSS feeds se raw, messy, unstructured text
+# 2. INGEST — RSS feeds + Blog pages (raw, messy, unstructured text)
 # ============================================================
 
 RSS_FEEDS = {
     "TechCrunch AI": "https://techcrunch.com/tag/artificial-intelligence/feed/",
     "Wired AI": "https://www.wired.com/feed/tag/ai/latest/rss",
     "MIT Technology Review AI": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+    "ArXiv AI": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=2",
+    "Hugging Face Blog": "https://huggingface.co/blog/feed.xml",
 }
+
+BLOG_URLS = {
+    "Papers with Code": "https://paperswithcode.com/latest",
+    "Towards Data Science": "https://towardsdatascience.com/",
+    "Stability AI Research": "https://stability.ai/research",
+    "Anthropic": "https://www.anthropic.com/news",
+}
+
+HEADERS = {"User-Agent": "Mozilla/5.0 (research/portfolio project - Tanya)"}
 
 LOOKBACK_HOURS = 24 * 7  # past week
 
@@ -92,6 +106,75 @@ def fetch_rss_articles() -> list[RawArticle]:
     return articles
 
 
+# ------------------------------------------------------------
+# Blog scraping — non-RSS sources, cleaned up via LLM
+# ------------------------------------------------------------
+
+EXTRACTION_INSTRUCTION = """Extract ONLY the main article content from this webpage in clean, plain text format.
+
+EXTRACTION RULES:
+1. INCLUDE ONLY the article's main body text, key quotes, and essential information
+2. Preserve paragraph structure and logical flow of ideas
+3. Include section headings that are part of the article's content structure
+4. Maintain the original meaning and context of the content
+
+STRICTLY EXCLUDE:
+- Navigation menus, breadcrumbs, and site headers/footers
+- Sidebars, related articles sections, and recommendation widgets
+- Author bios, social media buttons, and sharing options
+- ALL advertisements, promotional content, and sponsored links
+- Comment sections and user-generated feedback
+- Cookie notices, GDPR warnings, and other popups
+- Any HTML/CSS/JavaScript code snippets (unless they're the article's subject)
+- Image captions and alt text (unless critical to understanding)
+- Pagination controls and "read more" buttons
+
+FORMAT REQUIREMENTS:
+- Deliver clean, continuous text with proper paragraph breaks
+- Remove any extraneous whitespace, special characters, or formatting artifacts
+- Ensure the content reads naturally and coherently
+- Detect and preserve only the substantive content of the article
+
+This extraction should result in ONLY the actual article content that would be of interest to a reader."""
+
+
+def fetch_blog_articles() -> list[RawArticle]:
+    """Scrapes blog listing pages, then uses the LLM to clean raw HTML into article text."""
+    articles: list[RawArticle] = []
+
+    for source_name, url in BLOG_URLS.items():
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=15)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            raw_html_text = soup.get_text(separator="\n", strip=True)[:3000]  # cap length for LLM
+
+            client = get_client()
+            response = client.chat.completions.create(
+                model="openai/gpt-oss-120b",
+                messages=[
+                    {"role": "system", "content": EXTRACTION_INSTRUCTION},
+                    {"role": "user", "content": raw_html_text},
+                ],
+                temperature=0.1,
+            )
+            clean_text = response.choices[0].message.content.strip()
+
+            articles.append(RawArticle(
+                title=f"{source_name} latest post",
+                source=source_name,
+                url=url,
+                published=datetime.now(timezone.utc),
+                raw_text=clean_text,
+            ))
+        except Exception as e:
+            print(f"[blog_fetch] Failed for {source_name}: {e}")
+
+        time.sleep(1.5)
+
+    return articles
+
+
 # ============================================================
 # 3. LLM CLIENT — Groq API call wrapper
 # ============================================================
@@ -109,17 +192,27 @@ def get_client() -> Groq:
     return _client
 
 
-def call_llm(prompt: str, model: str = "openai/gpt-oss-120b") -> str:
+import time
+from groq import RateLimitError
+
+def call_llm(prompt: str, model: str = "openai/gpt-oss-120b", max_retries: int = 3) -> str:
     client = get_client()
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": "You return ONLY valid JSON. No markdown fences, no preamble."},
-            {"role": "user", "content": prompt},
-        ],
-        temperature=0.2,
-    )
-    return response.choices[0].message.content.strip()
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": "You return ONLY valid JSON. No markdown fences, no preamble."},
+                    {"role": "user", "content": prompt},
+                ],
+                temperature=0.2,
+            )
+            return response.choices[0].message.content.strip()
+        except RateLimitError as e:
+            wait_time = 10 * (attempt + 1)  # 10s, 20s, 30s — backoff
+            print(f"[call_llm] Rate limit hit, waiting {wait_time}s (attempt {attempt+1}/{max_retries})...")
+            time.sleep(wait_time)
+    raise RuntimeError("Rate limit exceeded after all retries.")
 
 
 # ============================================================
@@ -181,6 +274,7 @@ def extract_articles(raw_articles: list[RawArticle]) -> list[Article]:
         article = extract_article(raw)
         if article:
             results.append(article)
+        time.sleep(1)
 
     total = sum(extract_stats.values())
     if total:
@@ -190,6 +284,37 @@ def extract_articles(raw_articles: list[RawArticle]) -> list[Article]:
             f"{extract_stats['failed']}/{total} failed."
         )
     return results
+
+
+# ============================================================
+# 4b. SUMMARIZE — strategic-advisor framing (used to refine Article.summary)
+# ============================================================
+
+def summarize_article(title: str, content_text: str) -> str:
+    client = get_client()
+    response = client.chat.completions.create(
+        model="openai/gpt-oss-120b",
+        messages=[
+            {"role": "system", "content": (
+                "You are an AI strategic advisor who synthesizes technical developments for decision-makers. "
+                "Your role is to extract business-relevant insights from technical AI content while maintaining accuracy. "
+                "Focus on strategic implications, competitive advantages, and potential market impact. "
+                "Ground your answers in real world information and data."
+            )},
+            {"role": "user", "content": f"""This is an article with title: "{title}" and content: {content_text}
+
+Extract a brief summary of the article in one line (max 25 words). Focus on:
+- What makes this truly noteworthy
+- Why it matters
+- What's genuinely new/different
+
+Format: "Summary: (specific innovation/finding and why it's significant)"
+"""},
+        ],
+        temperature=0.1,
+        max_tokens=150,
+    )
+    return response.choices[0].message.content.strip()
 
 
 # ============================================================
@@ -246,10 +371,10 @@ def filter_articles(articles: list[Article]) -> list[Article]:
 
 DIGEST_FILE = Path("output/news_digest.json")
 
+
 def save_json(articles: list):
     DIGEST_FILE.parent.mkdir(parents=True, exist_ok=True)
 
-    
     if DIGEST_FILE.exists():
         with open(DIGEST_FILE, "r", encoding="utf-8") as f:
             all_data = json.load(f)
@@ -257,13 +382,12 @@ def save_json(articles: list):
         all_data = {}
 
     today = str(date.today())  # "2026-09-02"
-    all_data[today] = [a.model_dump() for a in articles]  
+    all_data[today] = [a.model_dump() for a in articles]
 
     with open(DIGEST_FILE, "w", encoding="utf-8") as f:
         json.dump(all_data, f, indent=2, ensure_ascii=False)
 
     print(f"[export] Updated {DIGEST_FILE} with {len(articles)} articles for {today}")
-
 
 
 # ============================================================
@@ -288,7 +412,7 @@ def send_email(articles: list[Article]) -> None:
     sender = os.environ.get("EMAIL_SENDER")
     password = os.environ.get("EMAIL_PASSWORD")
     smtp_server = os.environ.get("SMTP_SERVER")
-    smtp_port = int(os.environ.get("SMTP_PORT", "587"))
+    smtp_port = int(os.environ.get("SMTP_PORT") or "587")
     recipients = [r.strip() for r in os.environ.get("EMAIL_RECIPIENT", "").split(";") if r.strip()]
 
     required = {
@@ -318,15 +442,22 @@ def send_email(articles: list[Article]) -> None:
 
 
 # ============================================================
-# 8. MAIN 
+# 8. MAIN
 # ============================================================
 
 def main():
     print("=== Step 1: Ingest ===")
     raw_articles = fetch_rss_articles()
-    print(f"Fetched {len(raw_articles)} raw articles.")
+    print(f"Fetched {len(raw_articles)} RSS articles.")
+
+    blog_articles = fetch_blog_articles()
+    print(f"Fetched {len(blog_articles)} blog articles.")
+
+    raw_articles.extend(blog_articles)
+    print(f"Total raw articles: {len(raw_articles)}.")
+
     if not raw_articles:
-        print("No articles found in lookback window. Exiting.")
+        print("No articles found. Exiting.")
         return
 
     print("\n=== Step 2: Extract (structured, with retry) ===")
@@ -339,7 +470,6 @@ def main():
 
     print("\n=== Step 4: Export ===")
     save_json(kept_articles)
-
 
     print("\n=== Step 5: Email ===")
     send_email(kept_articles)
