@@ -138,16 +138,43 @@ FORMAT REQUIREMENTS:
 This extraction should result in ONLY the actual article content that would be of interest to a reader."""
 
 
+def get_latest_article_url(listing_url: str, source_name: str) -> str | None:
+    """Finds the most likely 'latest article' link from a blog listing page."""
+    resp = requests.get(listing_url, headers=HEADERS, timeout=15)
+    resp.raise_for_status()
+    soup = BeautifulSoup(resp.text, "html.parser")
+
+    # Site-specific link patterns — each blog's URL structure differs
+    patterns = {
+        "Anthropic": lambda href: href and "/news/" in href and href != "/news",
+        "Stability AI Research": lambda href: href and "/research/" in href and href.count("/") > 3,
+        "Towards Data Science": lambda href: href and "towardsdatascience.com/" in href and href.rstrip("/") != listing_url.rstrip("/"),
+        "Papers with Code": lambda href: href and "/paper/" in href,
+    }
+    check = patterns.get(source_name, lambda href: False)
+
+    for link in soup.find_all("a", href=True):
+        href = link["href"]
+        full_url = href if href.startswith("http") else f"https://{listing_url.split('/')[2]}{href}"
+        if check(full_url):
+            return full_url
+    return None
+
+
 def fetch_blog_articles() -> list[RawArticle]:
-    """Scrapes blog listing pages, then uses the LLM to clean raw HTML into article text."""
     articles: list[RawArticle] = []
 
-    for source_name, url in BLOG_URLS.items():
+    for source_name, listing_url in BLOG_URLS.items():
         try:
-            resp = requests.get(url, headers=HEADERS, timeout=15)
+            article_url = get_latest_article_url(listing_url, source_name)
+            if not article_url:
+                print(f"[blog_fetch] Could not find a specific article link for {source_name}, skipping.")
+                continue
+
+            resp = requests.get(article_url, headers=HEADERS, timeout=15)
             resp.raise_for_status()
             soup = BeautifulSoup(resp.text, "html.parser")
-            raw_html_text = soup.get_text(separator="\n", strip=True)[:3000]  # cap length for LLM
+            raw_html_text = soup.get_text(separator="\n", strip=True)[:3000]
 
             client = get_client()
             response = client.chat.completions.create(
@@ -161,9 +188,9 @@ def fetch_blog_articles() -> list[RawArticle]:
             clean_text = response.choices[0].message.content.strip()
 
             articles.append(RawArticle(
-                title=f"{source_name} latest post",
+                title=f"{source_name} — latest article",
                 source=source_name,
-                url=url,
+                url=article_url,     # ab specific article ka URL hai, listing page ka nahi
                 published=datetime.now(timezone.utc),
                 raw_text=clean_text,
             ))
