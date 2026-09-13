@@ -959,5 +959,276 @@
         "AI research"
       ]
     }
+  ],
+  "2026-09-13": [
+    {
+      "title": "Powering AI is an architecture problem",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2026/07/22/powering-ai-architecture-problem",
+      "summary": "A recent transmission line fault in Virginia’s data center hub highlighted the critical power infrastructure challenges for scaling AI workloads, emphasizing the need for resilient architecture.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "AI",
+        "Data Centers",
+        "Power Infrastructure",
+        "Energy"
+      ]
+    },
+    {
+      "title": "Stability AI Research — latest article",
+      "source": "Stability AI Research",
+      "url": "https://stability.ai/research/stable-layers",
+      "summary": "Stability AI introduces Stable‑Layers, a VLM‑scored reinforcement‑learning framework that fine‑tunes image layer‑decomposition models without paired supervision, achieving better layer separation and lower reconstruction error.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "Stable-Layers",
+        "Reinforcement Learning",
+        "Vision-Language Model",
+        "Layer Decomposition",
+        "LoRA"
+      ]
+    },
+    {
+      "title": "Anthropic — latest article",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/blog/alignment-security-2026",
+      "summary": "Anthropic details recent Claude model security incidents, outlines new containment measures, alignment research, and calls for coordinated industry pacing to mitigate race‑to‑the‑bottom risks.",
+      "category": "Policy",
+      "relevance_score": 9,
+      "tags": [
+        "AI safety",
+        "alignment",
+        "security",
+        "evaluation",
+        "pacing"
+      ]
+    },
+    {
+      "title": "AI Agents Are Thirsty for Power",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/ai-agents-thirsty-power",
+      "summary": "Silicon Valley is moving from chatbot queries to resource‑intensive agentic AI, spurring a rapid expansion of data center capacity.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI agents",
+        "data centers",
+        "resource consumption",
+        "Silicon Valley"
+      ]
+    },
+    {
+      "title": "From Hacks to Bioweapons, Claude Misuse Is Now Everywhere",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/from-hacks-to-bioweapons-claude-misuse/",
+      "summary": "The article highlights the growing risk of malicious actors weaponizing Claude, an AI model, for cyber attacks and even bioweapon development, underscoring urgent security and policy challenges for businesses.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "Claude",
+        "misuse",
+        "cybersecurity",
+        "bioweapon"
+      ]
+    },
+    {
+      "title": "Meta Sued Over Training Data for Its AI and Face-Recognition Systems",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/meta-sued-training-data-ai-face-recognition",
+      "summary": "Meta faces a class-action lawsuit alleging it harvested user photos from Facebook and Instagram to train its AI image generators and the unreleased NameTag facial recognition feature, raising legal and privacy concerns.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "Meta",
+        "AI",
+        "Face Recognition",
+        "Lawsuit",
+        "Data Privacy"
+      ]
+    },
+    {
+      "title": "One of AI’s Fiercest Critics Says All the Doom Talk Is ‘Meant to Distract Us’",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/ai-critics-distract-us/",
+      "summary": "Timnit Gebru argues that AI firms amplify existential threats to sidestep scrutiny of tangible harms such as autonomous weapons, urging a shift toward concrete risk mitigation.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI ethics",
+        "Timnit Gebru",
+        "AI risk",
+        "public perception",
+        "autonomous weapons"
+      ]
+    },
+    {
+      "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/ai-researchers-machines-kill-everyone",
+      "summary": "Rapid AI advances, recursive self‑improvement, and emergent agentic swarms are raising safety concerns among leading labs, prompting heightened focus on risk mitigation strategies.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "AGI risk",
+        "recursive self-improvement",
+        "agentic swarms",
+        "research"
+      ]
+    },
+    {
+      "title": "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/openai-ai-industry-slowdown-legal/",
+      "summary": "AI executives fear antitrust law could block coordinated efforts to deliberately slow AI development, prompting OpenAI to explore the legality of such a slowdown.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "antitrust",
+        "regulation",
+        "slowdown"
+      ]
+    },
+    {
+      "title": "Everything New You Can Do With Siri AI",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/everything-new-you-can-do-with-siri-ai",
+      "summary": "iOS 27 will introduce a fully revamped Siri AI assistant with new capabilities, expanding how users interact with their iPhone.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "iOS27",
+        "Siri",
+        "AI",
+        "Apple",
+        "Product Launch"
+      ]
+    },
+    {
+      "title": "Clearview AI Is Testing an AI Tool That Would Let Cops Unearth Your Life Online",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/clearview-ai-testing-ai-tool-police",
+      "summary": "Clearview AI is piloting a prototype that uses xAI's Grok model to aggregate personal data, social accounts, and connections for individuals identified by its facial‑recognition system, raising new privacy and law‑enforcement concerns.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "Clearview AI",
+        "AI surveillance",
+        "law enforcement",
+        "privacy",
+        "xAI",
+        "Grok"
+      ]
+    },
+    {
+      "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/anthropic-ai-researcher-quits-crunch-time",
+      "summary": "A former Anthropic researcher warns that AI labs have only a few years to ensure safety, highlighting the urgent need for alignment research and industry-wide collaboration.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI alignment",
+        "Anthropic",
+        "AI safety",
+        "research urgency",
+        "industry collaboration"
+      ]
+    },
+    {
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2024/09/13/openai-math-controversy-millennium-prize-problem",
+      "summary": "OpenAI claims its agents solved a Millennium Prize Problem, but the announcement is clouded by controversy over the validity and transparency of the solution, raising questions for AI-driven research.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Mathematics",
+        "OpenAI",
+        "Millennium Prize",
+        "Controversy"
+      ]
+    },
+    {
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2023/09/13/ai-entrepreneur-planning-agents",
+      "summary": "A stealth-mode startup led by Danijar Hafner is building AI agents capable of forward planning and adapting to unforeseen events, aiming to commercialize advanced decision-making tools for enterprises.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Planning",
+        "Agents",
+        "Startup",
+        "Decision-Making"
+      ]
+    },
+    {
+      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/rebuilding-automatic1111-gradio-workflow",
+      "summary": "The article outlines how the AUTOMATIC1111 Stable Diffusion UI was reengineered using Gradio, streamlining deployment and enabling easier integration into custom AI pipelines.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "AUTOMATIC1111",
+        "Gradio",
+        "Stable Diffusion",
+        "AI workflow",
+        "deployment"
+      ]
+    },
+    {
+      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/ibm-granite-patchtst-fm-r2",
+      "summary": "IBM introduced the Granite Time Series PatchTST-FM-r2 model, a state‑of‑the‑art solution for time‑series forecasting, now available under a commercial‑friendly license.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "time series",
+        "forecasting",
+        "AI model",
+        "IBM",
+        "Granite",
+        "commercial license"
+      ]
+    },
+    {
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/safety-for-whom-refusing-the-right-subset",
+      "summary": "The article discusses how AI safety should focus on selectively refusing harmful content subsets rather than blanket bans, guiding product teams to implement nuanced moderation strategies.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "content moderation",
+        "LLM",
+        "ethical AI",
+        "product strategy"
+      ]
+    },
+    {
+      "title": "Is AI Actually Going to Kill Us All?",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/ai-kill-us-all",
+      "summary": "The article examines an ex-Anthropic researcher’s AI doomsday warning alongside Apple’s latest product upgrades and a controversial census report, highlighting potential risks and market implications for AI and tech companies.",
+      "category": "Research",
+      "relevance_score": 7,
+      "tags": [
+        "AI safety",
+        "Anthropic",
+        "Apple",
+        "census",
+        "politics"
+      ]
+    }
   ]
 }
