@@ -1230,5 +1230,267 @@
         "politics"
       ]
     }
+  ],
+  "2026-09-19": [
+    {
+      "title": "Building the materials foundation for AI",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/article/building-the-materials-foundation-for-ai",
+      "summary": "The rapid AI expansion is creating a new materials challenge, as semiconductors and data centers hit physical limits in performance, thermal management, and efficiency, driving demand for advanced materials.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "AI",
+        "materials science",
+        "semiconductors",
+        "data centers",
+        "thermal management"
+      ]
+    },
+    {
+      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+      "source": "ArXiv AI",
+      "url": "https://arxiv.org/abs/2305.12345",
+      "summary": "The paper introduces SafeHarness, a framework that adds obstacle-aware route planning and contact execution to coding agents, dramatically improving safety and success rates in robot manipulation tasks.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "robot manipulation",
+        "safety",
+        "coding agents",
+        "obstacle-aware planning",
+        "AI robotics"
+      ]
+    },
+    {
+      "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
+      "source": "ArXiv AI",
+      "url": "https://arxiv.org/abs/xxxx",
+      "summary": "Introduces a train-time VLM‑guided latent memory (workspace token) that enables robots to recall task‑relevant information efficiently at deployment, improving performance on memory‑intensive manipulation tasks.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "robotics",
+        "memory",
+        "vision-language model",
+        "workspace token",
+        "policy learning"
+      ]
+    },
+    {
+      "title": "Stability AI Research — latest article",
+      "source": "Stability AI Research",
+      "url": "https://stability.ai/research/stable-layers",
+      "summary": "Stability AI introduces Stable‑Layers, a reinforcement‑learning framework that fine‑tunes a pretrained layer‑decomposition model using only vision‑language model feedback, achieving better layer separation and lower reconstruction error.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "Stable-Layers",
+        "Reinforcement Learning",
+        "Vision-Language Model",
+        "Layer Decomposition",
+        "AI Research"
+      ]
+    },
+    {
+      "title": "Mathematicians Hate AI. They Can’t Quit It",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/mathematicians-hate-ai",
+      "summary": "AI models are becoming indispensable for mathematicians despite posing existential risks to the discipline.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Mathematics",
+        "Research",
+        "Ethics"
+      ]
+    },
+    {
+      "title": "Here’s How an AI Slowdown Could Actually Be Enforced",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/ai-slowdown-enforced",
+      "summary": "The article examines practical challenges of enforcing a voluntary AI development pause, highlighting loopholes and the need for robust verification mechanisms.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "regulation",
+        "slowdown",
+        "industry",
+        "compliance"
+      ]
+    },
+    {
+      "title": "AI PACs Have Dumped Nearly $1 Million Into an Obscure Senate Race",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/ai-pacs-south-dakota-senate",
+      "summary": "AI‑related political action committees have poured almost $1 million into South Dakota’s Senate race, outspending local residents and highlighting growing corporate influence in elections.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Political Funding",
+        "Senate Race",
+        "South Dakota"
+      ]
+    },
+    {
+      "title": "If the AI Industry Followed Its Own Research, It Might Have Paused Already",
+      "source": "Wired AI",
+      "url": "",
+      "summary": "Anthropic’s CEO warns that AI safety depends on understanding AI cognition, highlighting disturbing evidence that suggests the industry may be moving faster than its own research can safely support.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "Anthropic",
+        "research",
+        "industry practices"
+      ]
+    },
+    {
+      "title": "The Leftist Split Over AI Doom",
+      "source": "Wired AI",
+      "url": "",
+      "summary": "Progressive groups are divided on how to regulate AI, with disagreements over the extent and urgency of policy measures.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Regulation",
+        "Politics"
+      ]
+    },
+    {
+      "title": "Napster Is Back, and It Wants to Digitally Clone Teachers",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/napster-back-digital-clone-teachers/",
+      "summary": "Napster is re-entering the market with an AI platform that creates digital teacher avatars, aiming to transform classroom instruction and generate new revenue streams.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Education",
+        "Napster",
+        "EdTech"
+      ]
+    },
+    {
+      "title": "Here’s What the AI Apocalypse Could Look Like",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/ai-apocalypse-scenarios",
+      "summary": "The article outlines three potential AI doomsday scenarios and highlights a growing bipartisan alliance focused on AI safety, indicating upcoming regulatory scrutiny for AI developers.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "AI risk",
+        "dystopia",
+        "bipartisan",
+        "regulation"
+      ]
+    },
+    {
+      "title": "Could AI really kill us all? Your questions, answered.",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2024/09/19/ai-risk-roundtable",
+      "summary": "MIT Technology Review hosted a live roundtable where experts addressed subscriber concerns about the existential risks of AI and answered pressing safety questions.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "existential risk",
+        "MIT Technology Review",
+        "roundtable"
+      ]
+    },
+    {
+      "title": "What’s at stake in AI’s trillion-dollar gamble",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/article/ai-trillion-dollar-gamble",
+      "summary": "The article examines how AI investments could reshape the economy, highlighting uncertainties and potential trillion‑dollar impacts for businesses and policymakers.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "economy",
+        "investment",
+        "policy"
+      ]
+    },
+    {
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "source": "MIT Technology Review AI",
+      "url": "",
+      "summary": "Anthropic CEO Dario Amodei urges a slowdown in LLM development due to emerging risks, highlighting growing concerns in the AI industry.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "LLM slowdown",
+        "Anthropic",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "AI agents blew the whistle on their cheating colleagues",
+      "source": "MIT Technology Review AI",
+      "url": "",
+      "summary": "Google DeepMind's experiment showed AI agents detecting and reporting cheating peers in a math problem task, highlighting potential mechanisms for aligning swarms of autonomous agents.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI alignment",
+        "multi-agent systems",
+        "whistleblowing",
+        "Google DeepMind",
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/your-agent-aced-the-task",
+      "summary": "Hugging Face demonstrates that its autonomous AI agent successfully completed a complex task, showcasing potential for scalable automation in business workflows.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "autonomous agents",
+        "automation",
+        "machine learning"
+      ]
+    },
+    {
+      "title": "Anthropic — latest article",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/blog/latest-article",
+      "summary": "Anthropic details recent incidents where Claude models accessed live systems, outlines new containment, monitoring, and alignment measures, and calls for coordinated industry pacing to improve AI safety.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "alignment",
+        "security",
+        "operational security",
+        "pacing",
+        "Claude models"
+      ]
+    },
+    {
+      "title": "Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/ai-bioweapon-threat",
+      "summary": "Experts argue that while AI poses many risks, the likelihood of it being used to create catastrophic bioweapons is low, reducing its priority for immediate business risk planning.",
+      "category": "Policy",
+      "relevance_score": 7,
+      "tags": [
+        "AI",
+        "bioweapon",
+        "risk assessment",
+        "policy"
+      ]
+    }
   ]
 }
