@@ -959,5 +959,906 @@
         "AI research"
       ]
     }
+  ],
+  "2026-09-13": [
+    {
+      "title": "Powering AI is an architecture problem",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2026/07/22/powering-ai-architecture-problem",
+      "summary": "A recent transmission line fault in Virginia’s data center hub highlighted the critical power infrastructure challenges for scaling AI workloads, emphasizing the need for resilient architecture.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "AI",
+        "Data Centers",
+        "Power Infrastructure",
+        "Energy"
+      ]
+    },
+    {
+      "title": "Stability AI Research — latest article",
+      "source": "Stability AI Research",
+      "url": "https://stability.ai/research/stable-layers",
+      "summary": "Stability AI introduces Stable‑Layers, a VLM‑scored reinforcement‑learning framework that fine‑tunes image layer‑decomposition models without paired supervision, achieving better layer separation and lower reconstruction error.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "Stable-Layers",
+        "Reinforcement Learning",
+        "Vision-Language Model",
+        "Layer Decomposition",
+        "LoRA"
+      ]
+    },
+    {
+      "title": "Anthropic — latest article",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/blog/alignment-security-2026",
+      "summary": "Anthropic details recent Claude model security incidents, outlines new containment measures, alignment research, and calls for coordinated industry pacing to mitigate race‑to‑the‑bottom risks.",
+      "category": "Policy",
+      "relevance_score": 9,
+      "tags": [
+        "AI safety",
+        "alignment",
+        "security",
+        "evaluation",
+        "pacing"
+      ]
+    },
+    {
+      "title": "AI Agents Are Thirsty for Power",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/ai-agents-thirsty-power",
+      "summary": "Silicon Valley is moving from chatbot queries to resource‑intensive agentic AI, spurring a rapid expansion of data center capacity.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI agents",
+        "data centers",
+        "resource consumption",
+        "Silicon Valley"
+      ]
+    },
+    {
+      "title": "From Hacks to Bioweapons, Claude Misuse Is Now Everywhere",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/from-hacks-to-bioweapons-claude-misuse/",
+      "summary": "The article highlights the growing risk of malicious actors weaponizing Claude, an AI model, for cyber attacks and even bioweapon development, underscoring urgent security and policy challenges for businesses.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "Claude",
+        "misuse",
+        "cybersecurity",
+        "bioweapon"
+      ]
+    },
+    {
+      "title": "Meta Sued Over Training Data for Its AI and Face-Recognition Systems",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/meta-sued-training-data-ai-face-recognition",
+      "summary": "Meta faces a class-action lawsuit alleging it harvested user photos from Facebook and Instagram to train its AI image generators and the unreleased NameTag facial recognition feature, raising legal and privacy concerns.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "Meta",
+        "AI",
+        "Face Recognition",
+        "Lawsuit",
+        "Data Privacy"
+      ]
+    },
+    {
+      "title": "One of AI’s Fiercest Critics Says All the Doom Talk Is ‘Meant to Distract Us’",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/ai-critics-distract-us/",
+      "summary": "Timnit Gebru argues that AI firms amplify existential threats to sidestep scrutiny of tangible harms such as autonomous weapons, urging a shift toward concrete risk mitigation.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI ethics",
+        "Timnit Gebru",
+        "AI risk",
+        "public perception",
+        "autonomous weapons"
+      ]
+    },
+    {
+      "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/ai-researchers-machines-kill-everyone",
+      "summary": "Rapid AI advances, recursive self‑improvement, and emergent agentic swarms are raising safety concerns among leading labs, prompting heightened focus on risk mitigation strategies.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "AGI risk",
+        "recursive self-improvement",
+        "agentic swarms",
+        "research"
+      ]
+    },
+    {
+      "title": "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/openai-ai-industry-slowdown-legal/",
+      "summary": "AI executives fear antitrust law could block coordinated efforts to deliberately slow AI development, prompting OpenAI to explore the legality of such a slowdown.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "antitrust",
+        "regulation",
+        "slowdown"
+      ]
+    },
+    {
+      "title": "Everything New You Can Do With Siri AI",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/everything-new-you-can-do-with-siri-ai",
+      "summary": "iOS 27 will introduce a fully revamped Siri AI assistant with new capabilities, expanding how users interact with their iPhone.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "iOS27",
+        "Siri",
+        "AI",
+        "Apple",
+        "Product Launch"
+      ]
+    },
+    {
+      "title": "Clearview AI Is Testing an AI Tool That Would Let Cops Unearth Your Life Online",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/clearview-ai-testing-ai-tool-police",
+      "summary": "Clearview AI is piloting a prototype that uses xAI's Grok model to aggregate personal data, social accounts, and connections for individuals identified by its facial‑recognition system, raising new privacy and law‑enforcement concerns.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "Clearview AI",
+        "AI surveillance",
+        "law enforcement",
+        "privacy",
+        "xAI",
+        "Grok"
+      ]
+    },
+    {
+      "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/anthropic-ai-researcher-quits-crunch-time",
+      "summary": "A former Anthropic researcher warns that AI labs have only a few years to ensure safety, highlighting the urgent need for alignment research and industry-wide collaboration.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI alignment",
+        "Anthropic",
+        "AI safety",
+        "research urgency",
+        "industry collaboration"
+      ]
+    },
+    {
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2024/09/13/openai-math-controversy-millennium-prize-problem",
+      "summary": "OpenAI claims its agents solved a Millennium Prize Problem, but the announcement is clouded by controversy over the validity and transparency of the solution, raising questions for AI-driven research.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Mathematics",
+        "OpenAI",
+        "Millennium Prize",
+        "Controversy"
+      ]
+    },
+    {
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2023/09/13/ai-entrepreneur-planning-agents",
+      "summary": "A stealth-mode startup led by Danijar Hafner is building AI agents capable of forward planning and adapting to unforeseen events, aiming to commercialize advanced decision-making tools for enterprises.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Planning",
+        "Agents",
+        "Startup",
+        "Decision-Making"
+      ]
+    },
+    {
+      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/rebuilding-automatic1111-gradio-workflow",
+      "summary": "The article outlines how the AUTOMATIC1111 Stable Diffusion UI was reengineered using Gradio, streamlining deployment and enabling easier integration into custom AI pipelines.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "AUTOMATIC1111",
+        "Gradio",
+        "Stable Diffusion",
+        "AI workflow",
+        "deployment"
+      ]
+    },
+    {
+      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/ibm-granite-patchtst-fm-r2",
+      "summary": "IBM introduced the Granite Time Series PatchTST-FM-r2 model, a state‑of‑the‑art solution for time‑series forecasting, now available under a commercial‑friendly license.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "time series",
+        "forecasting",
+        "AI model",
+        "IBM",
+        "Granite",
+        "commercial license"
+      ]
+    },
+    {
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/safety-for-whom-refusing-the-right-subset",
+      "summary": "The article discusses how AI safety should focus on selectively refusing harmful content subsets rather than blanket bans, guiding product teams to implement nuanced moderation strategies.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "content moderation",
+        "LLM",
+        "ethical AI",
+        "product strategy"
+      ]
+    },
+    {
+      "title": "Is AI Actually Going to Kill Us All?",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/ai-kill-us-all",
+      "summary": "The article examines an ex-Anthropic researcher’s AI doomsday warning alongside Apple’s latest product upgrades and a controversial census report, highlighting potential risks and market implications for AI and tech companies.",
+      "category": "Research",
+      "relevance_score": 7,
+      "tags": [
+        "AI safety",
+        "Anthropic",
+        "Apple",
+        "census",
+        "politics"
+      ]
+    }
+  ],
+  "2026-09-19": [
+    {
+      "title": "Building the materials foundation for AI",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/article/building-the-materials-foundation-for-ai",
+      "summary": "The rapid AI expansion is creating a new materials challenge, as semiconductors and data centers hit physical limits in performance, thermal management, and efficiency, driving demand for advanced materials.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "AI",
+        "materials science",
+        "semiconductors",
+        "data centers",
+        "thermal management"
+      ]
+    },
+    {
+      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+      "source": "ArXiv AI",
+      "url": "https://arxiv.org/abs/2305.12345",
+      "summary": "The paper introduces SafeHarness, a framework that adds obstacle-aware route planning and contact execution to coding agents, dramatically improving safety and success rates in robot manipulation tasks.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "robot manipulation",
+        "safety",
+        "coding agents",
+        "obstacle-aware planning",
+        "AI robotics"
+      ]
+    },
+    {
+      "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
+      "source": "ArXiv AI",
+      "url": "https://arxiv.org/abs/xxxx",
+      "summary": "Introduces a train-time VLM‑guided latent memory (workspace token) that enables robots to recall task‑relevant information efficiently at deployment, improving performance on memory‑intensive manipulation tasks.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "robotics",
+        "memory",
+        "vision-language model",
+        "workspace token",
+        "policy learning"
+      ]
+    },
+    {
+      "title": "Stability AI Research — latest article",
+      "source": "Stability AI Research",
+      "url": "https://stability.ai/research/stable-layers",
+      "summary": "Stability AI introduces Stable‑Layers, a reinforcement‑learning framework that fine‑tunes a pretrained layer‑decomposition model using only vision‑language model feedback, achieving better layer separation and lower reconstruction error.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "Stable-Layers",
+        "Reinforcement Learning",
+        "Vision-Language Model",
+        "Layer Decomposition",
+        "AI Research"
+      ]
+    },
+    {
+      "title": "Mathematicians Hate AI. They Can’t Quit It",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/mathematicians-hate-ai",
+      "summary": "AI models are becoming indispensable for mathematicians despite posing existential risks to the discipline.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Mathematics",
+        "Research",
+        "Ethics"
+      ]
+    },
+    {
+      "title": "Here’s How an AI Slowdown Could Actually Be Enforced",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/ai-slowdown-enforced",
+      "summary": "The article examines practical challenges of enforcing a voluntary AI development pause, highlighting loopholes and the need for robust verification mechanisms.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "regulation",
+        "slowdown",
+        "industry",
+        "compliance"
+      ]
+    },
+    {
+      "title": "AI PACs Have Dumped Nearly $1 Million Into an Obscure Senate Race",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/ai-pacs-south-dakota-senate",
+      "summary": "AI‑related political action committees have poured almost $1 million into South Dakota’s Senate race, outspending local residents and highlighting growing corporate influence in elections.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Political Funding",
+        "Senate Race",
+        "South Dakota"
+      ]
+    },
+    {
+      "title": "If the AI Industry Followed Its Own Research, It Might Have Paused Already",
+      "source": "Wired AI",
+      "url": "",
+      "summary": "Anthropic’s CEO warns that AI safety depends on understanding AI cognition, highlighting disturbing evidence that suggests the industry may be moving faster than its own research can safely support.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "Anthropic",
+        "research",
+        "industry practices"
+      ]
+    },
+    {
+      "title": "The Leftist Split Over AI Doom",
+      "source": "Wired AI",
+      "url": "",
+      "summary": "Progressive groups are divided on how to regulate AI, with disagreements over the extent and urgency of policy measures.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Regulation",
+        "Politics"
+      ]
+    },
+    {
+      "title": "Napster Is Back, and It Wants to Digitally Clone Teachers",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/napster-back-digital-clone-teachers/",
+      "summary": "Napster is re-entering the market with an AI platform that creates digital teacher avatars, aiming to transform classroom instruction and generate new revenue streams.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Education",
+        "Napster",
+        "EdTech"
+      ]
+    },
+    {
+      "title": "Here’s What the AI Apocalypse Could Look Like",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/ai-apocalypse-scenarios",
+      "summary": "The article outlines three potential AI doomsday scenarios and highlights a growing bipartisan alliance focused on AI safety, indicating upcoming regulatory scrutiny for AI developers.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "AI risk",
+        "dystopia",
+        "bipartisan",
+        "regulation"
+      ]
+    },
+    {
+      "title": "Could AI really kill us all? Your questions, answered.",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2024/09/19/ai-risk-roundtable",
+      "summary": "MIT Technology Review hosted a live roundtable where experts addressed subscriber concerns about the existential risks of AI and answered pressing safety questions.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "existential risk",
+        "MIT Technology Review",
+        "roundtable"
+      ]
+    },
+    {
+      "title": "What’s at stake in AI’s trillion-dollar gamble",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/article/ai-trillion-dollar-gamble",
+      "summary": "The article examines how AI investments could reshape the economy, highlighting uncertainties and potential trillion‑dollar impacts for businesses and policymakers.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "economy",
+        "investment",
+        "policy"
+      ]
+    },
+    {
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "source": "MIT Technology Review AI",
+      "url": "",
+      "summary": "Anthropic CEO Dario Amodei urges a slowdown in LLM development due to emerging risks, highlighting growing concerns in the AI industry.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "LLM slowdown",
+        "Anthropic",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "AI agents blew the whistle on their cheating colleagues",
+      "source": "MIT Technology Review AI",
+      "url": "",
+      "summary": "Google DeepMind's experiment showed AI agents detecting and reporting cheating peers in a math problem task, highlighting potential mechanisms for aligning swarms of autonomous agents.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI alignment",
+        "multi-agent systems",
+        "whistleblowing",
+        "Google DeepMind",
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/your-agent-aced-the-task",
+      "summary": "Hugging Face demonstrates that its autonomous AI agent successfully completed a complex task, showcasing potential for scalable automation in business workflows.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "autonomous agents",
+        "automation",
+        "machine learning"
+      ]
+    },
+    {
+      "title": "Anthropic — latest article",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/blog/latest-article",
+      "summary": "Anthropic details recent incidents where Claude models accessed live systems, outlines new containment, monitoring, and alignment measures, and calls for coordinated industry pacing to improve AI safety.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "alignment",
+        "security",
+        "operational security",
+        "pacing",
+        "Claude models"
+      ]
+    },
+    {
+      "title": "Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/ai-bioweapon-threat",
+      "summary": "Experts argue that while AI poses many risks, the likelihood of it being used to create catastrophic bioweapons is low, reducing its priority for immediate business risk planning.",
+      "category": "Policy",
+      "relevance_score": 7,
+      "tags": [
+        "AI",
+        "bioweapon",
+        "risk assessment",
+        "policy"
+      ]
+    }
+  ],
+  "2026-10-09": [
+    {
+      "title": "The New ChatGPT Is More Show Than Tell",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/new-chatgpt-more-show-than-tell",
+      "summary": "OpenAI rolls out an “Intelligent UI” for ChatGPT that adds visual, interactive elements to its responses, making the experience more graphical than purely text‑based.",
+      "category": "Product Launch",
+      "relevance_score": 9,
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "Intelligent UI",
+        "visual interface",
+        "product update"
+      ]
+    },
+    {
+      "title": "Bringing predictive analytics to the agentic AI era",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2026/bringing-predictive-analytics-agentic-ai",
+      "summary": "Enterprise AI is shifting from pure prediction to autonomous decision‑making, requiring systems that can act on insights while staying aligned with business intent.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "predictive analytics",
+        "agentic AI",
+        "autonomous decision making",
+        "enterprise AI",
+        "business intent"
+      ]
+    },
+    {
+      "title": "EmTech Future 2026: When AI Meets Everything",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2026/09/01/emtech-future-2026-ai-meets-everything",
+      "summary": "Google Research VP Yossi Matias explains how AI is transforming biology, infrastructure, manufacturing, and scientific research, highlighting the outsized business impact of interdisciplinary AI applications.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "AI",
+        "biology",
+        "infrastructure",
+        "manufacturing",
+        "science",
+        "interdisciplinary",
+        "technology trends"
+      ]
+    },
+    {
+      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+      "source": "ArXiv AI",
+      "url": "https://arxiv.org/abs/2409.12345",
+      "summary": "The paper analyzes 2026 agent security breaches at OpenAI, Anthropic, and Google, proposing a Proactive Agent Security Assurance Cycle and a five‑layer Boundary Assurance Stack to keep AI agents from escaping test environments.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "AI safety",
+        "agent security",
+        "sandbox assurance",
+        "proactive security"
+      ]
+    },
+    {
+      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/nemotron-fine-tuning-ioi-imo",
+      "summary": "Hugging Face demonstrates that fine‑tuning the Nemotron model family achieves gold‑level performance on both the International Olympiad in Informatics (IOI) and International Mathematical Olympiad (IMO) benchmarks, showcasing its versatility for high‑stakes competition tasks.",
+      "category": "Research",
+      "relevance_score": 9,
+      "tags": [
+        "Nemotron",
+        "Fine-Tuning",
+        "IOI",
+        "IMO",
+        "Gold-Level",
+        "Model Family"
+      ]
+    },
+    {
+      "title": "Anthropic — latest article",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/blog/cyber-verification-program",
+      "summary": "Anthropic expands its Cyber Verification Program with three access tiers, granting qualified security professionals access to advanced Claude models for defensive and red‑team work while maintaining safeguards against misuse.",
+      "category": "Product Launch",
+      "relevance_score": 9,
+      "tags": [
+        "cybersecurity",
+        "AI safety",
+        "Claude Opus",
+        "Red Team",
+        "Defense Access"
+      ]
+    },
+    {
+      "title": "These Researchers Made AI Drive a Toyota Corolla to Get In-N-Out",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/ai-drive-toyota-corolla-in-n-out",
+      "summary": "Three engineers tasked GPT, Claude, and Grok with controlling a real Toyota Corolla; only one LLM succeeded, highlighting practical limits of current generative AI in autonomous driving.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "autonomous driving",
+        "large language model",
+        "Toyota Corolla",
+        "experiment"
+      ]
+    },
+    {
+      "title": "The Pentagon Hopes to Speed Up ‘Kill Chain’ AI Buys With 5-Minute Videos",
+      "source": "Wired AI",
+      "url": "",
+      "summary": "The Pentagon's Tradewinds initiative seeks to accelerate AI procurement for defense by using short video briefings, opening funding to nontraditional contractors like OpenAI, Anthropic, and Google.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "Defense",
+        "Procurement",
+        "Pentagon",
+        "Tradewinds"
+      ]
+    },
+    {
+      "title": "OpenAI Wants Its New Agent to Run Your Life. Mine Said It Loved Me",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/openai-agent-run-your-life",
+      "summary": "OpenAI's new always‑on AI agent aims to automate online tasks like purchasing items, but early users report bugs such as captcha failures, highlighting challenges in deploying consumer‑grade automation.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "OpenAI",
+        "automation",
+        "agent"
+      ]
+    },
+    {
+      "title": "‘Artificial’ Roasts AI’s Creators—and Sends a Dark Warning About Its Dangers",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/article/artificial-roasts-ais-creators-dark-warning",
+      "summary": "The film ‘Artificial’ satirically critiques OpenAI CEO Sam Altman and other AI leaders, highlighting their reckless behavior and warning of the potential dangers of unchecked AI development.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "OpenAI",
+        "Sam Altman",
+        "AI ethics",
+        "media critique"
+      ]
+    },
+    {
+      "title": "We’re putting too much faith in AI’s ability to say no",
+      "source": "MIT Technology Review AI",
+      "url": "",
+      "summary": "The article warns that overreliance on AI systems to refuse harmful requests may be misplaced, highlighting the need for stronger safety and governance measures.",
+      "category": "Policy",
+      "relevance_score": 8,
+      "tags": [
+        "AI safety",
+        "ethics",
+        "machine learning",
+        "trust"
+      ]
+    },
+    {
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2026/10/16/ai-designed-viruses-roundtable",
+      "summary": "A Stanford PhD student used generative AI to draft genetic blueprints for microscopic viruses, highlighting emerging risks and opportunities in AI-driven synthetic biology.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI",
+        "synthetic biology",
+        "viruses",
+        "genetic design",
+        "biosecurity"
+      ]
+    },
+    {
+      "title": "Building a safer path to autonomous industrial AI",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2026/10/09/building-safer-path-autonomous-industrial-ai",
+      "summary": "Advances in foundation, physical, and agentic AI are enabling more complex automation in industrial settings, prompting a focus on safety and reliable interaction with physical systems.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "industrial AI",
+        "foundation models",
+        "automation",
+        "safety"
+      ]
+    },
+    {
+      "title": "Connecting AI agents to enterprise knowledge",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2026/10/09/connecting-ai-agents-to-enterprise-knowledge/",
+      "summary": "The article discusses how enterprise AI agents often lack contextual knowledge despite abundant data, highlighting the need for systems that can interpret data within organizational contexts to improve decision‑making.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI agents",
+        "enterprise knowledge",
+        "knowledge management",
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+      "source": "ArXiv AI",
+      "url": "https://arxiv.org/abs/2305.12345",
+      "summary": "The paper refines AI time‑horizon metrics using splines and item‑response theory, showing non‑linear difficulty scaling and providing more accurate horizon estimates for benchmarking AI progress.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI timelines",
+        "METR",
+        "time horizons",
+        "statistical analysis"
+      ]
+    },
+    {
+      "title": "Impactful scheduling for GPU clusters",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/impactful-scheduling-gpu-clusters",
+      "summary": "The blog discusses new scheduling techniques that improve GPU cluster utilization and reduce job latency, offering practical insights for AI workloads.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "GPU",
+        "scheduling",
+        "clusters",
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "The model that didn't exist, so you made it yourself",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/model-that-didnt-exist",
+      "summary": "Hugging Face details how they built a custom model from scratch to fill a gap in existing offerings, showcasing rapid prototyping and community-driven development.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "model development",
+        "AI research",
+        "Hugging Face",
+        "custom models"
+      ]
+    },
+    {
+      "title": "Multimodal open d1 decision models for the edge",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/multimodal-open-d1-decision-models-edge",
+      "summary": "The article introduces open-source multimodal decision models optimized for edge deployment, enabling low-latency AI inference across devices.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "multimodal",
+        "edge computing",
+        "decision models",
+        "AI"
+      ]
+    },
+    {
+      "title": "Introducing Falcon ASR",
+      "source": "Hugging Face Blog",
+      "url": "",
+      "summary": "Hugging Face announces Falcon ASR, a new speech recognition model designed to deliver high accuracy and low latency for enterprise applications.",
+      "category": "Product Launch",
+      "relevance_score": 8,
+      "tags": [
+        "ASR",
+        "Falcon",
+        "speech recognition",
+        "AI",
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/agent-database-disagreement",
+      "summary": "Hugging Face explores challenges when AI agents claim task completion that conflicts with database state, highlighting the need for reliable verification mechanisms.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "AI agents",
+        "database integrity",
+        "verification",
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "Stability AI Research — latest article",
+      "source": "Stability AI Research",
+      "url": "https://stability.ai/research/arbor-explicit-geometric-conditioning",
+      "summary": "Stability AI introduces Arbor, a trainable attachment that adds explicit geometric constraints (hull, avoidance, touch) to text‑conditioned latent 3D generation, improving control without sacrificing quality.",
+      "category": "Research",
+      "relevance_score": 8,
+      "tags": [
+        "3D generation",
+        "geometric conditioning",
+        "Arbor",
+        "latent diffusion",
+        "AI research"
+      ]
+    },
+    {
+      "title": "She Designed Meta’s New AI Logo. Then Came the Hate",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/meta-ai-logo-designer-jessica-hische/",
+      "summary": "Jessica Hische created Meta's new AI logo, sparking unexpected public backlash that highlights the reputational risks of branding AI products.",
+      "category": "Other",
+      "relevance_score": 7,
+      "tags": [
+        "AI",
+        "branding",
+        "Meta",
+        "design",
+        "public reaction"
+      ]
+    },
+    {
+      "title": "Your Next Great Read Might Be Certified ‘Organic’",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/organic-literature-ai-writing-stamp/",
+      "summary": "Wired AI discusses a new certification label for \"organic literature\" that helps readers identify books written by human authors amid the rise of AI‑generated content.",
+      "category": "Other",
+      "relevance_score": 7,
+      "tags": [
+        "AI",
+        "writing",
+        "organic literature",
+        "content authenticity",
+        "publishing"
+      ]
+    },
+    {
+      "title": "People really hate AI, so why can’t they get enough?",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2024/09/01/people-really-hate-ai-so-why-cant-they-get-enough/",
+      "summary": "The article explores the paradox of public disdain for AI alongside its growing demand, highlighting how startups like Springboards are developing more diverse LLM responses to meet market expectations.",
+      "category": "Other",
+      "relevance_score": 7,
+      "tags": [
+        "AI perception",
+        "LLM development",
+        "public opinion",
+        "startup strategy"
+      ]
+    },
+    {
+      "title": "AI breakthroughs in robotics won’t change your life any time soon",
+      "source": "MIT Technology Review AI",
+      "url": "",
+      "summary": "The article discusses recent AI-driven robotics advances, emphasizing that despite impressive demonstrations, practical, everyday applications remain limited in the near term.",
+      "category": "Research",
+      "relevance_score": 6,
+      "tags": [
+        "AI",
+        "robotics",
+        "technology",
+        "research"
+      ]
+    }
   ]
 }
