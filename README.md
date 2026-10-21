@@ -66,6 +66,9 @@ RSS_FEEDS = {
     "TechCrunch AI": "https://techcrunch.com/tag/artificial-intelligence/feed/",
     # Add your sources here
 }
+
+BLOG_URLS = {
+    
 ```
 
 ## How It Works
