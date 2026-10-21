@@ -1,8 +1,7 @@
-feedparser==6.0.11
-openai==1.64.0
-groq==1.7.0
-pydantic==2.10.6
+feedparser
+openai
+groq
+pydantic
 requests
-bs4
-python-dotenv==1.0.1
+python-dotenv
 streamlit
